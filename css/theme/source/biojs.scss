@@ -23,7 +23,8 @@
 $mainColor: #333;
 $headingColor: #333;
 $headingTextShadow: none;
-$backgroundColor: #f7f3de;
+// $backgroundColor: #f7f3de;
+$backgroundColor: #ABC4AB;
 $linkColor: #8b743d;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(79, 64, 28, 0.99);
@@ -31,7 +32,7 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 
 // Background generator
 @mixin bodyBackground() {
-	@include radial-gradient( rgba(247,242,211,1), rgba(255,255,255,1) );
+	@include radial-gradient( #ABC4AB, rgba(255,255,255,1) );
 }
 
 
